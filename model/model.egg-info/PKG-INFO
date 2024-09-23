@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: model
+Version: 0.1
+Summary: Comprehensive package for the YachtSpeedPred project, including TensorFlow models, supporting classes, and essential files for predicting yacht speed based on various parameters.
+Author: Jakub Iliński
+Author-email: kubailinski2@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: seaborn
+
 # Yacht Speed Prediction Model Package
 
 ---
