@@ -1,0 +1,9 @@
+requests
+json
+os 
+numpy 
+bs4
+pandas
+matplotlib
+torch
+tqdm
