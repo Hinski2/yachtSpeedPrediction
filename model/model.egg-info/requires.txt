@@ -1,8 +1,0 @@
-requests
-numpy
-bs4
-pandas
-matplotlib
-torch
-tqdm
-seaborn
