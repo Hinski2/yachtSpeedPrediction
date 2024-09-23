@@ -103,9 +103,11 @@ Our model produces a table like this, based on the provided data (our dataFrame 
 | Run VMG       | 864.5 | 675.6 | 565.6 | 502.3 | 462.4 | 423.0 | 344.2 | 267.8 |
 
 Average Values for Each Cell:
+
 ![Image](/model/plots/realValuesAverage.png)
 
 Average Difference Between Real Yacht Values and Model Predictions:
+
 ![Image](/model/plots/modelVsRelity.png)
 
 
