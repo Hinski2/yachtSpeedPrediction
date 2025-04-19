@@ -19,7 +19,7 @@ model
 │   │   └── model_class_1.py
 │   ├── models
 │   ├── predict.py
-│   ├── predict_exel.py
+│   ├── predict_excel.py
 │   └── predict_input.py
 ├── data
 │   ├── clean
@@ -54,7 +54,7 @@ pip install .
 
 ### How to use
 The package contains two classes for making predictions:
-1. `model.PredictExel`:
+1. `model.Predictexcel`:
     * Place your Excel file in the `model/predictions/input` folder and name it `input.xlsx`.
     * The class will return a pandas DataFrame with the model predictions and will automatically save the results in the `model/predictions/output` folder.
 
@@ -91,6 +91,7 @@ You can read about how the model's performance was tested in the `modelAnalysis.
 Our model produces a table like this, based on the provided data (our dataFrame is flattened to 1D from 2D):
 | Wind Velocity | 6 kt  | 8 kt  | 10 kt | 12 kt | 14 kt | 16 kt | 20 kt | 24 kt |
 |---------------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Beat Angles   | 348.8 | 453.8 | 453.2 | 443.9 | 501.0 | 498.7 | 488.0 | 500.1 |
 | Beat VMG      | 885.0 | 719.0 | 651.0 | 624.9 | 610.3 | 600.3 | 589.9 | 598.0 |
 | 52°           | 580.3 | 487.0 | 456.0 | 444.0 | 436.5 | 430.9 | 423.5 | 423.2 |
 | 60°           | 549.9 | 470.9 | 443.2 | 430.3 | 421.8 | 415.2 | 406.7 | 404.2 |
@@ -101,6 +102,7 @@ Our model produces a table like this, based on the provided data (our dataFrame 
 | 135°          | 629.1 | 490.6 | 434.1 | 394.8 | 359.8 | 327.2 | 280.1 | 233.5 |
 | 150°          | 748.7 | 585.1 | 489.9 | 435.7 | 400.4 | 366.4 | 298.1 | 232.0 |
 | Run VMG       | 864.5 | 675.6 | 565.6 | 502.3 | 462.4 | 423.0 | 344.2 | 267.8 |
+| Gybe Angles   | 137.5 | 157.5 | 138.6 | 178.6 | 156.5 | 123.3 | 134.1 | 148.8 | 
 
 Average Values for Each Cell:
 

@@ -1,0 +1,182 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282C34;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Main page header */
+h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+/* Buttons container styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #61AFEF;
+    color: #FFFFFF;
+}
+
+/* Sub-header styling */
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Terminal styling */
+.terminal {
+    background-color: #000000;
+    color: #00FF00;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: monospace;
+    position: relative;
+    font-size: 25px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+}
+
+#terminal-output {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in height and width */
+}
+
+#terminal-input {
+    width: calc(100% - 20px); /* Full width minus padding for centering */
+    padding: 10px;
+    border: none;
+    background-color: #1E1E1E;
+    color: #00FF00;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+}
+
+#terminal-input:focus {
+    outline: none;
+}
+
+/* Table container styling */
+.table-container {
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    overflow-x: auto;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: separate; /* Changed from collapse to handle rounded borders */
+    border-spacing: 0;
+    color: #FFFFFF;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    border: 3px solid #FFFFFF; /* White border around the table to make rounded corners more visible */
+}
+
+/* Header and cell styling */
+th, td {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #61AFEF;
+}
+
+tbody td:first-child {
+    background-color: #61AFEF; /* Change color of the first column to blue */
+    font-weight: bold; /* Make the first column text bold for better readability */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #333842;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #3B4048;
+}
+
+/* Reset button styling */
+#reset-button {
+    margin-top: 20px;
+    padding: 20px 40px; /* Increased button size */
+    font-size: 22px; /* Increased font size */
+    color: #FFFFFF;
+    background-color: #C678DD; /* New button color */
+    border: none;
+    border-radius: 8px; /* Increased border-radius for better visual impact */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#reset-button:hover {
+    background-color: #A056BD;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Help section styling */
+.help-section {
+    background-color: #23272e; /* Slightly darker than the page background */
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Added shadow for better distinction */
+}
+
+.help-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.help-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.help-section li {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 15px;
+}

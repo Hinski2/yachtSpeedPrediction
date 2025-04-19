@@ -6,3 +6,5 @@ matplotlib
 torch
 tqdm
 seaborn
+ipykernel
+openpyxl

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict with Excel</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predict with Excel</h1>
+        <h2>Input Excel File</h2>
+        <div class="terminal">
+            <div id="terminal-output">
+                Please select an Excel file:<br>
+            </div>
+            <label for="file-upload" id="terminal-input-label">
+                <input type="file" id="file-upload" accept=".xlsx, .xls" style="display: none;">
+                <div id="terminal-input" class="file-upload-button">
+                    Click here to select your Excel file...
+                </div>
+            </label>
+        </div>
+        <div class="help-section">
+            <h2>Help Section</h2>
+            <ul>
+                <li>Please make sure to upload a valid Excel file (.xlsx or .xls).</li>
+                <li>Once uploaded, the file will be processed and a download link will be provided.</li>
+                <li>If any issues occur, please restart the process and try again.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../static/script_excel.js"></script>
+</body>
+</html>

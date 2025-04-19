@@ -1,0 +1,13 @@
+requests
+numpy 
+bs4
+pandas
+matplotlib
+torch
+tqdm
+seaborn
+ipykernel
+openpyxl
+fastapi
+uvicorn
+python-multipart
